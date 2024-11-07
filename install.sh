@@ -9,4 +9,4 @@ export NVM_DIR=$HOME/.nvm;
 source $NVM_DIR/nvm.sh;
 nvm install node
 
-wget -qO- https://raw.githubusercontent.com/hy-tsoha/local-pg/refs/heads/master/pg-install.sh | bash
+apt install postgresql -y
