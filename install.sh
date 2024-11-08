@@ -13,6 +13,9 @@ apt install git htop curl -y
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
+export NVM_DIR=$HOME/.nvm;
+source $NVM_DIR/nvm.sh;
+
 # download and install Node.js (you may need to restart the terminal)
 nvm install 22
 
