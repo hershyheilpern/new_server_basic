@@ -8,6 +8,12 @@ wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo t
  
 apt update
 apt upgrade -y
+
+echo '*****************************************************'
+echo '*****************************************************'
+echo '*******************upgrade done**********************'
+echo '*****************************************************'
+echo '*****************************************************'
 apt install git htop curl gh postgresql -y
 
 # wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
@@ -30,6 +36,8 @@ node -v # should print `v22.11.0`
 
 # verifies the right npm version is in the environment
 npm -v # should print `10.9.0`
+
+npm i pm2 -g
 
 source ~/.bashrc 
 
